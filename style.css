@@ -8,7 +8,7 @@ img {
   vertical-align: middle;
 }
 body {
-  width: 1920px;
+  max-width: 1920px;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   color: #bf9c56;
@@ -22,6 +22,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
+  /* max-width: 1920px; */
 }
 .headerbox1 {
   display: flex;
@@ -33,7 +34,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   padding: 20px 30px 27px 30px;
-  gap: 15px;
+  /* gap: 15px; */
 }
 .d1txt {
   font-size: 10px;
@@ -46,6 +47,13 @@ body {
   flex-wrap: wrap;
   gap: 30px;
   color: #ffff;
+}
+.d2__texts {
+  cursor: pointer;
+}
+.d2__texts:hover {
+  color: #bf9c56;
+  transition: all 0.4s ease;
 }
 .d3 {
   padding: 30px 30px 30px 186px;
@@ -64,8 +72,15 @@ body {
 }
 .d4 {
   padding: 30px 40px;
+  margin-left: auto;
   background-color: #bf9c56;
   color: white;
+  cursor: pointer;
+}
+.d4:hover {
+  background-color: white;
+  color: #bf9c56;
+  transition: all 0.8s ease;
 }
 
 .box1main {
@@ -83,6 +98,7 @@ body {
 }
 .b1endbox {
   border-left: 3px solid black;
+  width: 25%;
   display: flex;
   gap: 20px;
   color: white;
@@ -134,8 +150,23 @@ body {
   padding: 15px 20px;
   width: 33%;
   margin: 40px;
+  background-color: black;
+  color:#bf9c56; 
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
+.ffbox__button {
+  background-color: #bf9c56;
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
 .box3 {
   display: flex;
   background-color: black;
