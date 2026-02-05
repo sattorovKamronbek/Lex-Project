@@ -142,7 +142,7 @@ body {
 .box1ff {
   display: flex;
 }
-.ffbox {
+.boxed__items__ff {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -151,28 +151,33 @@ body {
   width: 33%;
   margin: 40px;
   background-color: black;
-  color:#bf9c56; 
+  color: #bf9c56;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.ffbox__button {
+.boxed__items__ff__button {
   background-color: #bf9c56;
   color: white;
   border: none;
-  width: 30px;
-  height: 30px;
-
+  width: 60px;
+  height: 50px;
   border-radius: 10px;
   text-align: center;
   cursor: pointer;
+  align-items: center;
+  margin-top: 39px;
+  justify-content: center;
 }
-.box3 {
+.boxed__items__ff__button:active {
+  transform: scale(0.95);
+}
+.primerly__items__box__3 {
   display: flex;
   background-color: black;
   height: 800px;
 }
-.box3L {
+.primerly__items__box__3L {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -180,22 +185,22 @@ body {
   align-items: center;
   padding: 240px 200px;
 }
-.box3R {
+.primerly__items__box__3R {
   width: 50%;
 }
-.box3R img {
+.primerly__items__box__3R img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.box3h2 {
+.primerly__items__box__3h2 {
   font-size: 40px;
 }
-.box3h5 {
+.primerly__items__box__3h5 {
   color: white;
   font-size: 18px;
 }
-.box3ff {
+.primerly__items__box__3ff {
   width: 100%;
   display: flex;
   gap: 10px;
@@ -204,21 +209,21 @@ body {
   border: 2px solid #bf9c56;
   padding: 15px 0px;
 }
-.box3txt {
+.primerly__items__box__3txt {
   text-decoration: none;
   color: #bf9c56;
 }
-.box4 {
+.primerly__items__box__4 {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 80px;
 }
-.box4txt {
+.primerly__items__box__4txt {
   color: #333333;
   font-size: 36px;
 }
-.box5 {
+.primerly__items__box__5 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
