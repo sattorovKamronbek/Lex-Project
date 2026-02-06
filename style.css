@@ -16,6 +16,15 @@ body {
   background-color: #f2f2f2;
   margin: 0 auto;
 }
+.container{
+  max-width: 1920px;
+}
+.sariq{
+  color: #bf9c56;
+}
+.qora{
+  color:#1a1a1a;
+}
 .box1 {
   background-image: url(pics/box1bacpic.png);
   background-size: cover;
@@ -156,20 +165,20 @@ body {
   font-weight: bold;
 }
 
-.boxed__items__ff__button {
-  background-color: #bf9c56;
-  color: white;
-  border: none;
-  width: 60px;
-  height: 50px;
-  border-radius: 10px;
-  text-align: center;
-  cursor: pointer;
+.boxed__items__ff__btn {
+  display: flex;
   align-items: center;
-  margin-top: 39px;
   justify-content: center;
+  border: 1px solid #bf9c56;
+  padding: 15px 20px;
+  width: 33%;
+  margin: 40px;
+  background-color: black;
+  color: #bf9c56;
+  text-transform: uppercase;
+  font-weight: bold;
 }
-.boxed__items__ff__button:active {
+.boxed__items__ff__btn:active {
   transform: scale(0.95);
 }
 .primerly__items__box__3 {
@@ -232,6 +241,9 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 80px;
+  /* justify-content: center; */
+  /* margin: 0 auto; */
+  text-align: center;
 }
 .b5h2 {
   margin-top: 40px;
@@ -242,4 +254,18 @@ body {
   font-size: 16px;
   color: #333333;
   font-weight: 400;
+}
+.track__1__dv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 80px; */
+  gap: 40px;
+}
+
+.track__1__dv__left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
