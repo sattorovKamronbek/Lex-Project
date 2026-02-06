@@ -403,3 +403,9 @@ body {
 .tracks__p > .p2 {
   padding-top: 50px;
 }
+.top__narabotki__sc{
+  background-color: #191919;
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+}
