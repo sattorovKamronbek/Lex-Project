@@ -683,8 +683,9 @@ body {
   background-color: #191919;
 }
 .about__company__ffx {
-  height: 2760px;
+  /* min-height: 2450px; */
   background-color: #0d0d0d;
+  padding-bottom: 120px;
 }
 .about__company__leks {
   max-width: 1445px;
@@ -826,4 +827,48 @@ body {
   font-size: 18px;
   /* line-height: 30px; */
   /* font-style: medium; */
+}
+.about__company__icons__div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 1440px;
+  height: 720px;
+  margin: 0 auto;
+  background-color: #141414;
+  margin-top: 160px;
+  /* margin-bottom: 300px; */
+}
+.about__company__icons__div > div {
+  border: 2px solid #000000;
+  width: 480px;
+  height: 360px;
+  align-items: center;
+  padding: 70px;
+  text-align: center;
+}
+.about__company__icons__div > div > h3 {
+  font-weight: 700;
+  font-size: 30px;
+  font-style: bold;
+}
+
+.about__company__icons__div > div > h5 {
+  font-weight: 600;
+  font-size: 18px;
+  font-style: bold;
+  color: #ffffff;
+  line-height: 30px;
+  margin-top: 30px;
+}
+.about__company__icons__div > div > button {
+  width: 274px;
+  height: 50px;
+  color: #cca352;
+  border: 2px solid #cca352;
+  background-color: #141414;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 40px;
 }
