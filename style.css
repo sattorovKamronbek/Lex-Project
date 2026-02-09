@@ -673,3 +673,157 @@ body {
   cursor: pointer;
   text-transform: uppercase;
 }
+
+.about__company__prm {
+  font-weight: 800;
+  font-size: 36px;
+  font-style: bold;
+  width: 100%;
+  height: 200px;
+  background-color: #191919;
+}
+.about__company__ffx {
+  height: 2760px;
+  background-color: #0d0d0d;
+}
+.about__company__leks {
+  max-width: 1445px;
+  min-height: 720px;
+  margin: 0 auto;
+  background-color: #141414;
+  display: flex;
+  align-items: center;
+  border: 2px solid #000000;
+}
+.about__company__leks__left {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about__company__leks__left__texts {
+  /* width: 640px; */
+  /* height: 430px; */
+  /* gap: 40px; */
+  display: flex;
+  flex-direction: column;
+}
+.about__company__leks__left__texts > h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+.about__company__leks__left__texts > p {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  font-style: medium;
+  margin-top: 40px;
+  text-transform: initial;
+}
+.about__company__leks__left__buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.about__company__leks__left__buttons > button {
+  color: #cca352;
+  border: 2px solid #cca352;
+  font-weight: 700;
+  font-size: 15px;
+  font-style: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background-color: #141414;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.about__company__leks__right {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+.about__company__leks__right__dvs {
+  width: 360px;
+  height: 360px;
+  text-align: center;
+  border: 1px solid #000000;
+}
+.about__company__leks__right__dvs h3 {
+  color: #cca352;
+  font-weight: 400;
+  font-size: 80px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.about__company__leks__right__dvs h5 {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+}
+.about__company__karta {
+  width: 1440px;
+  height: 560px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #141414;
+  margin-top: 160px;
+  gap: 10px;
+  border: 2px solid #000000;
+  /* border: 2px #000000; */
+}
+.about__company__karta__right {
+  width: 50%;
+}
+.about__company__karta__right > button {
+  width: 640px;
+  height: 50px;
+  margin-top: 100px;
+  /* padding: 10px 20px; */
+  color: #cca352;
+  border: 2px solid #cca352;
+  background-color: #141414;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.about__company__karta__right__texts > h3 {
+  font-weight: 700;
+  font-size: 30px;
+  font-style: bold;
+  margin-bottom: 40px;
+}
+.about__company__karta__right__texts__2 > h5 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  font-style: medium;
+  margin-bottom: 20px;
+}
+.about__company__karta__right__texts__2__group {
+  display: flex;
+  gap: 70px;
+  /* width: 720px; */
+  /* height: 200px; */
+  margin: 0 auto;
+  align-items: center;
+  /* text-align: center; */
+  /* justify-content: space-between; */
+}
+.about__company__karta__right__texts__2__group > div > h3 {
+  font-weight: 700;
+  font-size: 30px;
+  font-style: bold;
+}
+
+.about__company__karta__right__texts__2__group > div > h5 {
+  /* color: #ffffff; */
+  font-weight: 600;
+  font-size: 18px;
+  /* line-height: 30px; */
+  /* font-style: medium; */
+}
