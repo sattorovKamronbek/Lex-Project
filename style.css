@@ -597,3 +597,79 @@ body {
   display: block;
   margin-top: -200px;
 }
+.zadachi__tasks__section {
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  max-width: 1920px;
+  min-height: 1000px;
+  background-color: #f2f2f2;
+}
+.zadachi__tasks__section > .text {
+  color: #333333;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 40px;
+  padding: 80px;
+}
+
+.zadachi__tasks__section__divs {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.zadachi__tasks__section__divs > div {
+  height: 400px;
+  width: 640px;
+  padding: 60px;
+  border: 1px solid #e6e6e6;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* justify-content: start; */
+}
+.zadachi__tasks__section__divs > div > h4 {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: left;
+  color: #191919;
+}
+.zadachi__tasks__section__divs > div > p {
+  color: #333333;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 40px;
+  /* width: 500px; */
+  text-transform: initial;
+  text-align: left;
+}
+.zadachi__tasks__div1__buttons {
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+}
+.zadachi__tasks__div1__button1 {
+  background-color: #0d0d0d;
+  width: 320px;
+  height: 50px;
+  color: #bf9c56;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.zadachi__tasks__div1__button2 {
+  width: 144px;
+  height: 50px;
+  border: 2px solid;
+  color: #bf9c56;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
