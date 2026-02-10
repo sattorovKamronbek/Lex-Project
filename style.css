@@ -954,3 +954,33 @@ body {
   font-style: medium;
   padding-top: 60px;
 }
+.map__section {
+  position: relative;
+  height: 840px;
+}
+.map__section > img {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+.div__1__items__chlg > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #000000;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+}
+.div__1__items__map > p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #191919;
+  width: 480px;
+}
