@@ -681,11 +681,15 @@ body {
   width: 100%;
   height: 200px;
   background-color: #191919;
+  text-align: center;
+  padding-top: 60px;
 }
 .about__company__ffx {
   /* min-height: 2450px; */
   background-color: #0d0d0d;
   padding-bottom: 120px;
+
+  padding-top: 100px;
 }
 .about__company__leks {
   max-width: 1445px;
@@ -871,4 +875,82 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 40px;
+}
+.vaprosi__section {
+  max-width: 1920px;
+  height: 960px;
+  position: relative;
+  align-items: center;
+}
+.vaprosi__section > img {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+.vaprosi__section__zayavka {
+  border: 3px solid #cca352;
+  width: 480px;
+  height: 600px;
+  position: absolute;
+  z-index: 0;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  top: 25%;
+  left: 20%;
+  justify-content: center;
+  align-items: center;
+  /* margin */
+  padding-left: 30px;
+}
+.zayavka__sec__items > h2 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 40px;
+  padding: 20px 0px;
+}
+.zayavka__sec__items > h5 {
+  font-weight: 600;
+  font-size: 18px;
+  /* margin-top: 20px; */
+}
+.zayavka__sec__items > input {
+  width: 400px;
+  height: 50px;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-style: bold;
+  font-weight: 700;
+  text-align: center;
+  /* text-align: 100px; */
+  margin-top: 40px;
+}
+.zayavka__sec__items > button {
+  width: 400px;
+  height: 50px;
+  border: 2px solid #cca352;
+  color: #cca352;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-style: bold;
+  font-weight: 700;
+  text-align: center;
+  background-color: #000000;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.zayavka__sec__items__1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: medium;
+  padding-top: 60px;
 }
