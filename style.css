@@ -1053,3 +1053,18 @@ body {
   /* margin-bottom: 120px; */
   /* padding-bottom: 120px; */
 }
+
+.footer__section {
+  /* height: 80px; */
+  background-color: #000000;
+}
+.section__footer {
+  display: flex;
+  /* width: 1440px; */
+  margin: 0 auto;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 15px;
+  color: #cca352;
+  padding: 25px 240px;
+}
