@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lex promo</title>
-    <link rel="icon" href="./pics/logo.svg" type="image/x-icon">
+    <link rel="icon" href="./pics/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,101 +13,129 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./normalize.css" />
   </head>
   <body>
     <div class="container">
-      <div class="box1">
-        <header class="headerbox1">
-          <div class="d1">
-            <img src="pics/logo.svg" alt="" />
-            <p class="d1txt">завод илососных каналопромывочных машин</p>
-          </div>
-          <div class="d2">
-            <p class="d2__texts">комбинированные машины</p>
-            <p class="d2__texts">илососные машины</p>
-          </div>
-          <div class="d3">
-            <div class="d33">
-              <img src="pics/call-calling.svg" alt="" />
-              <img src="pics/what.svg" alt="" />
-              <img src="pics/TG.svg" alt="" />
-              <a class="telefon" href="telefon">8 (351) 217-07-50</a>
-            </div>
-            <div class="d33">
-              <img src="pics/mail.svg" alt="" />
-              <a class="telefon" href="telefon"> INFO+285243@LEX.SU </a>
+      <div class="home">
+        <header class="header flex">
+          <div class="header__logo-box flex">
+            <a href="#" class="header__logo-link">
+              <img src="./pics/logo.svg" alt="logo" class="header__logo" />
+            </a>
+            <div class="header__logo-boxes">
+              <p class="header__logo-text">завод илососных</p>
+              <p class="header__logo-text">каналопромывочных</p>
+              <p class="header__logo-text">машин</p>
             </div>
           </div>
-          <div class="d4"><p>Заказать звонок</p></div>
+          <div class="header__textbox flex">
+            <p class="header__text">комбинированные машины</p>
+            <p class="header__text">илососные машины</p>
+          </div>
+          <nav class="header__nav flex">
+            <a href="tel:82146812" class="header__link header__link--haspic">
+              <img
+                src="./pics/call-calling.svg"
+                alt="call-calling icon"
+                class="header__icon"
+              />
+            </a>
+            <a href="https://t.me/" class="header__link header__link--haspic">
+              <img
+                src="./pics/TG.svg"
+                alt="call-calling icon"
+                class="header__icon"
+              />
+            </a>
+            <a href="#" class="header__link header__link--haspic">
+              <img
+                src="./pics/what.svg"
+                alt="call-calling icon"
+                class="header__icon"
+              />
+            </a>
+            <a href="tel:83512170750" class="header__link header__link--tel">
+              8 (351) 217-07-50
+            </a>
+          </nav>
+          <a
+            href="mailto:sale@lex.org"
+            class="header__link header__mail header__mail--sale"
+          >
+            <img
+              src="./pics/call-calling.svg"
+              alt="call-calling"
+              class="header__icon"
+            />
+            <span class="header__link-text">sale@lex.org</span>
+          </a>
+          <a
+            href="mailto:INFO+285243@LEX.SU"
+            class="header__link header__mail header__mail--info"
+          >
+            <img
+              src="./pics/mail.svg"
+              alt="call-calling"
+              class="header__icon"
+            />
+            <span class="header__link-text">INFO+285243@LEX.SU</span>
+          </a>
+          <a href="#" class="header__order-a-call">Заказать звонок</a>
         </header>
-        <main class="box1main">
-          <div class="dm1">
-            <h4>01</h4>
-            <h4 class="dm1txt">02</h4>
-            <h4 class="dm1txt">03</h4>
-          </div>
-          <div class="dm2">
-            <h1 class="dm2txt">
+        <div class="root">
+          <div class="home__box">
+            <div class="home__numbers flex">
+              <span class="home__number home__number--active">01</span>
+              <span class="home__number">02</span>
+              <span class="home__number">03</span>
+            </div>
+            <h1 class="home__title">
               Производим комбинированные  каналопромывочные машины
             </h1>
+            <div class="home__paragraphs flex">
+              <p class="home__paragraph">Lorem ipsum dolor sit amet.</p>
+              <p class="home__paragraph">Quod velit tempora nesciunt dicta!</p>
+              <p class="home__paragraph">
+                Tenetur earum quis repellat veritatis?
+              </p>
+            </div>
           </div>
-          <div class="dm3">
-            <p class="aaa">До 20 метров глубина очищаемого колодца</p>
-            <p class="aaa">до 300 л./мин производительность насоса</p>
-            <p class="aaa">Отгрузка техники из наличия</p>
-          </div>
-        </main>
-        <footer class="box1footer">
-          <h5 class="b1foottxt">
-            Получите консультацию специалиста и коммерческое предложение под
-            вашу задачу
-          </h5>
-          <div class="box1ff">
-            <!-- <input
-              id="submitBtn"
-              type="submit"
-              class="boxed__items__ff__button"
-              style="display: none; cursor: pointer"
-            /> -->
-            <input
-              id="nameInput"
-              type="text"
-              class="boxed__items__ff"
-              placeholder="Ваше имя"
-            />
-            <input
-              id="phoneInput"
-              type="text"
-              class="boxed__items__ff"
-              placeholder="Телефон*"
-            />
-
-            <button
-              class="boxed__items__ff__btn"
-            >
-            Получить консультацию
-              </svg>
-            </button>
-            <!-- <div class="boxed__items__ff">Получить консультацию</div> -->
-          </div>
-        </footer>
-        <div class="b1end">
-          <div class="b1endbox">
-            <img src="pics/p1.svg" alt="" />
-            <h5>Продуманная конструкция</h5>
-          </div>
-          <div class="b1endbox">
-            <img src="pics/p2.svg" alt="" />
-            <h5>Эргономичное управление</h5>
-          </div>
-          <div class="b1endbox">
-            <img src="pics/p3.svg" alt="" />
-            <h5>Надежные компоненты</h5>
-          </div>
-          <div class="b1endbox www">
-            <img src="pics/p4.svg" alt="" />
-            <h5>Честная гарантия</h5>
-          </div>
+          <form class="home__form">
+            <p class="home__form-text">
+              Получите консультацию специалиста и коммерческое предложение под
+              вашу задачу
+            </p>
+            <div class="home__form-boxes flex">
+              <div class="home__form-box">
+                <input type="text" class="home__input" placeholder="Ваше имя" />
+              </div>
+              <div class="home__form-box">
+                <input type="text" class="home__input" placeholder="Телефон" />
+              </div>
+              <div class="home__form-box">
+                <button class="home__button">Получить консультацию</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="b1end">
+        <div class="b1endbox">
+          <img src="pics/p1.svg" alt="" />
+          <h5>Продуманная конструкция</h5>
+        </div>
+        <div class="b1endbox">
+          <img src="pics/p2.svg" alt="" />
+          <h5>Эргономичное управление</h5>
+        </div>
+        <div class="b1endbox">
+          <img src="pics/p3.svg" alt="" />
+          <h5>Надежные компоненты</h5>
+        </div>
+        <div class="b1endbox www">
+          <img src="pics/p4.svg" alt="" />
+          <h5>Честная гарантия</h5>
         </div>
       </div>
       <div class="tracks__section">
@@ -137,29 +165,35 @@
           </div>
           <div class="track__1__dv__right">
             <div class="image-wrapper">
-              <img  class="image__png__track__1" src="./pics/Frame 34625.png" alt="">
-              <img src="./pics/play.png" alt="play button">
+              <img
+                class="image__png__track__1"
+                src="./pics/Frame 34625.png"
+                alt=""
+              />
+              <img src="./pics/play.png" alt="play button" />
             </div>
           </div>
         </div>
         <div class="track__2__dv">
-                  
           <div class="track__1__dv__right">
             <div class="image-wrapper p23">
-              <img  class="image__png__track__1" src="./pics/Frame 34626.png" alt="">
-              <img src="./pics/play.png" alt="play button">
+              <img
+                class="image__png__track__1"
+                src="./pics/Frame 34626.png"
+                alt=""
+              />
+              <img src="./pics/play.png" alt="play button" />
             </div>
           </div>
           <div class="track__1__dv__left">
             <h4 class="sariq">комбинированные машины</h4>
             <h2 class="qora">АВК-10-6 КамАЗ 65115</h2>
-            <h5 class="qora">
-              илососная машина АВИ-10-1,5: 
-            </h5>
+            <h5 class="qora">илососная машина АВИ-10-1,5:</h5>
             <ul class="qora">
-              <li class="li__tracks">объем бака для ила 10 м куб., </li>
+              <li class="li__tracks">объем бака для ила 10 м куб.,</li>
               <li class="li__tracks">
-                ВАКУУМНЫЙ НАСОС ПРОИЗВОДИТЕЛЬНОСТЬЮ 30 800 Л/МИН, ГИДРАВЛИЧЕСКИЙ ПОДЪЕМ ЦИСТЕРНЫ И ГИДРАВЛИЧЕСКОЕ ОТКРЫВАНИЕ ДНА;
+                ВАКУУМНЫЙ НАСОС ПРОИЗВОДИТЕЛЬНОСТЬЮ 30 800 Л/МИН, ГИДРАВЛИЧЕСКИЙ
+                ПОДЪЕМ ЦИСТЕРНЫ И ГИДРАВЛИЧЕСКОЕ ОТКРЫВАНИЕ ДНА;
               </li>
               <li class="li__tracks">
                 ПЛУНЖЕРНЫЙ НАСОС ПРОИЗВОДИТЕЛЬНОСТЬЮ 84 Л/МИН;
@@ -173,9 +207,15 @@
           </div>
         </div>
         <div class="tracks__p">
-            <p>Возможна отгрузка комбинированной машины в сборе, а также монтаж на Ваше шасси. 
-В том числе на шасси с ПТС. Либо отгрузка только навесного оборудования для самостоятельного монтажа.</p>
-            <p class="p2">Объем цистерны, вакуумный насос и прочие технические характеристики могут быть изменены по требованию заказчика.</p>
+          <p>
+            Возможна отгрузка комбинированной машины в сборе, а также монтаж на
+            Ваше шасси. В том числе на шасси с ПТС. Либо отгрузка только
+            навесного оборудования для самостоятельного монтажа.
+          </p>
+          <p class="p2">
+            Объем цистерны, вакуумный насос и прочие технические характеристики
+            могут быть изменены по требованию заказчика.
+          </p>
         </div>
       </div>
       <div class="primerly__items__box__3">
@@ -250,227 +290,314 @@
       </div>
       <div class="narabotki__section">
         <div class="top__narabotki__sc">
-          <h2>наши наработки </h2>
+          <h2>наши наработки</h2>
         </div>
         <div class="wrap" role="application" aria-label="Top tabs example">
-  <div class="topbar">
-    <div role="tablist" aria-label="Menyu" class="tabs" id="tablist">
-      <!-- buttons injected by JS -->
-    </div>
+          <div class="topbar">
+            <div role="tablist" aria-label="Menyu" class="tabs" id="tablist">
+              <!-- buttons injected by JS -->
+            </div>
+          </div>
 
-  </div>
+          <main
+            class="content"
+            id="contentArea"
+            tabindex="0"
+            role="tabpanel"
+            aria-labelledby="tab-0"
+          >
+            <div class="art" id="artArea" aria-hidden="false">
+              <!-- SVG or image gets injected here -->
+            </div>
 
-  <main class="content" id="contentArea" tabindex="0" role="tabpanel" aria-labelledby="tab-0">
-    <div class="art" id="artArea" aria-hidden="false">
-      <!-- SVG or image gets injected here -->
-    </div>
-
-    <div class="text">
-      <div class="title" id="contentTitle">Sarlavha</div>
-      <div class="desc" id="contentDesc">Izoh matni</div>
-    </div>
-  </main>
-</div>
-    </div>
-    <div class="upravleniye__section">
-      <div class="upravleniye__texts">
-        <h2>Управление</h2>
-<h5>с электронного пульта в задней части машины <br>
-или дистанционно с радиопульта</h5>
+            <div class="text">
+              <div class="title" id="contentTitle">Sarlavha</div>
+              <div class="desc" id="contentDesc">Izoh matni</div>
+            </div>
+          </main>
+        </div>
       </div>
-<div class="upravleniye__images"
->
-<img class="img1" src="./pics/1.png" alt="pic1">
-<img src="./pics/2.png" alt="pic2"></div>
-    </div>
-    <div class="zadachi__tasks__section">
-      <div class="text">
-        
-      <h2>Лучшее решение для ваших задач</h2>
+      <div class="upravleniye__section">
+        <div class="upravleniye__texts">
+          <h2>Управление</h2>
+          <h5>
+            с электронного пульта в задней части машины <br />
+            или дистанционно с радиопульта
+          </h5>
+        </div>
+        <div class="upravleniye__images">
+          <img class="img1" src="./pics/1.png" alt="pic1" />
+          <img src="./pics/2.png" alt="pic2" />
+        </div>
       </div>
-      <div class="zadachi__tasks__section__divs">
-        <div class="zadachi__tasks__section__div1">
-        <h4>Ассортимент ограничен, <br>
-но все в наличии</h4>
-<p>Мы производим всего две модели техники. Это позволило довести каждую до идеала. Машины в наличии, приезжайте на осмотр и тест-драйв.</p>
-<div class="zadachi__tasks__div1__buttons">
-  <button class="zadachi__tasks__div1__button1">Рассчитать покупку в лизинг</button>
-  <button class="zadachi__tasks__div1__button2">тест-драйв</button>
-</div>
+      <div class="zadachi__tasks__section">
+        <div class="text">
+          <h2>Лучшее решение для ваших задач</h2>
+        </div>
+        <div class="zadachi__tasks__section__divs">
+          <div class="zadachi__tasks__section__div1">
+            <h4>
+              Ассортимент ограничен, <br />
+              но все в наличии
+            </h4>
+            <p>
+              Мы производим всего две модели техники. Это позволило довести
+              каждую до идеала. Машины в наличии, приезжайте на осмотр и
+              тест-драйв.
+            </p>
+            <div class="zadachi__tasks__div1__buttons">
+              <button class="zadachi__tasks__div1__button1">
+                Рассчитать покупку в лизинг
+              </button>
+              <button class="zadachi__tasks__div1__button2">тест-драйв</button>
+            </div>
+          </div>
+          <div class="zadachi__tasks__section__div2">
+            <h4>Локальное производство <br />(импортозамещение)</h4>
+            <p>
+              Производство насосов на собственной территории обеспечивает
+              качество европейского уровня, сокращает сроки поставок и ремонта,
+              а также снижает зависимость от внешних поставщиков, что особенно
+              важно в условиях санкционного давления.
+            </p>
+          </div>
+          <div class="zadachi__tasks__section__div3">
+            <h4>Инновационные <br />автоматизированные системы</h4>
+            <p>
+              Современные технологии позволяют работать в брюках и рубашке.
+              Автоматизированные механизмы подачи рукава, пневмоуправляемые и
+              обогреваемые задвижки, а также другие современные решения
+              гарантируют простоту эксплуатации и надежность даже в сложных
+              климатических условиях.
+            </p>
+          </div>
+          <div class="zadachi__tasks__section__div4">
+            <h4>Комплексное сервисное <br />обслуживание</h4>
+            <p>
+              Пусконаладка на объекте, обучение персонала, 5-летняя гарантия и
+              оперативное устранение неисправностей в течение 24 часов создают
+              дополнительную ценность для клиентов, минимизируя простой техники
+              и повышая доверие.
+            </p>
+          </div>
+          <div class="zadachi__tasks__section__div5">
+            <h4>универсальность и Высокая <br />производительность</h4>
+            <p>
+              Машины обеспечивают прочистку труб до 1 м в диаметре на 50 м длины
+              и откачку шлама с глубины до 12 м, что делает их эффективными для
+              широкого спектра задач и объектов.
+            </p>
+          </div>
+          <div class="zadachi__tasks__section__div6">
+            <h4>
+              Машина успешно справляется с <br />задачами и Помогает
+              <br />зарабатывать больше
+            </h4>
+            <p>
+              Благодаря продуманной конструкции и мощным насосам техника успешно
+              справляется с задачами. Более 150 наших клиентов отмечают эти
+              качества, как важные для роста прибыли.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="zadachi__tasks__section__div2">
-        <h4>Локальное производство <br>(импортозамещение)</h4>
-        <p>Производство насосов на собственной территории обеспечивает качество европейского уровня, сокращает сроки поставок и ремонта, а также снижает зависимость от внешних поставщиков, что особенно важно в условиях санкционного давления.</p>
-      </div>
-      <div class="zadachi__tasks__section__div3">
-        <h4>Инновационные <br>автоматизированные системы</h4>
-        <p>Современные технологии позволяют работать в брюках и рубашке. Автоматизированные механизмы подачи рукава, пневмоуправляемые и обогреваемые задвижки, а также другие современные решения гарантируют простоту эксплуатации и надежность даже в сложных климатических условиях.</p>
-      </div>
-      <div class="zadachi__tasks__section__div4">
-        <h4>Комплексное сервисное <br>обслуживание</h4>
-        <p>Пусконаладка на объекте, обучение персонала, 5-летняя гарантия и оперативное устранение неисправностей в течение 24 часов создают дополнительную ценность для клиентов, минимизируя простой техники и повышая доверие.</p>
-      </div>
-      <div class="zadachi__tasks__section__div5">
-        <h4>универсальность и Высокая <br>производительность</h4>
-        <p>Машины обеспечивают прочистку труб до 1 м в диаметре на 50 м длины и откачку шлама с глубины до 12 м, что делает их эффективными для широкого спектра задач и объектов.</p>
-      </div>
-      <div class="zadachi__tasks__section__div6">
-        <h4>Машина успешно справляется с <br>задачами и Помогает <br>зарабатывать больше</h4>
-        <p>Благодаря продуманной конструкции и мощным насосам техника успешно справляется с задачами. Более 150 наших клиентов отмечают эти качества, как важные для роста прибыли.</p>
-      </div>
-      </div>
-    </div>
-    <div class="about__company__section">
+      <div class="about__company__section">
         <div class="about__company__prm">
           <h2>О компании</h2>
         </div>
         <div class="about__company__ffx">
           <div class="about__company__ffx__divs">
-                      <div class="about__company__leks">
-            <div class="about__company__leks__left">
-              <div class="about__company__leks__left__texts">
-                <h3>Компания «ЛЕКС»</h3>
-                  <p>Завод имеет огромный опыт в индивидуальном проектировании и адаптации техники под запросы заказчика. <br><br>
-Специалисты завода готовы создать технику, которая будет оптимизирована под ваши потребности. Мы учитываем все нюансы - от климатических условий эксплуатации до специфики грунтов и объемов задач, обеспечивая максимальную эффективность и надежность оборудования. <br><br>
-Каждый проект проходит этапы глубокого анализа, ЗD -моделирования и тестирования, что гарантирует соответствие результата вашим требованиям. Современные инженерные решения и гибкий подход позволяют реализовать даже нестандартные идеи, дополняя технику уникальными опциями и системами для многозадачности.</p>
-              </div>
-              <div class="about__company__leks__left__buttons">
-                <button>больше информации</button>
-                <button>заказать звонок</button>
-              </div>
-            </div>
-            <div class="about__company__leks__right">
-              <div class="about__company__leks__right__dvs">
-                <h3>14+</h3>
-                <h5>лет опыта работы <br>
-по производству <br>спецтехники под заказ</h5>
-              </div>
-              <div class="about__company__leks__right__dvs">
-                <h3>748</h3>
-                <h5>разработанных <br>чертежей илососного оборудования <br>
-и автоцистерн</h5>
-              </div>
-              <div class="about__company__leks__right__dvs">
-                <h3>355</h3>
-                <h5>едениц техники <br>проданной в лизинг <br>
-по всей России</h5>
-              </div>
-              <div class="about__company__leks__right__dvs">
-                <h3>50%</h3>
-                <h5>предоплата <br>
-+ 50% оплата по <br>готовности продукции</h5>
-              </div>
-            </div>
-          </div>
-          <div class="about__company__karta">
-            <div class="about__company__karta__left">
-              <img src="./pics/Group 1420.png" alt="Gg">
-            </div>
-            <div class="about__company__karta__right">
-              <div class="about__company__karta__right__texts">
-                <h3>Доставка в любую точку России и стран СНГ</h3>
-                <div class="about__company__karta__right__texts__2">
-                  <h5>Осуществляем доставку своим ходом, на трале или 
-жд-транспортом</h5>
-<div class="about__company__karta__right__texts__2__group">
-  <div><h3>212</h3>
-  <h5>собственных <br>водителей</h5></div>
-  <div><h3>350</h3><h5>Поставок <br>по тендерам</h5></div>
-  <div><h3>54</h3><h5>города</h5></div>
-</div>
+            <div class="about__company__leks">
+              <div class="about__company__leks__left">
+                <div class="about__company__leks__left__texts">
+                  <h3>Компания «ЛЕКС»</h3>
+                  <p>
+                    Завод имеет огромный опыт в индивидуальном проектировании и
+                    адаптации техники под запросы заказчика. <br /><br />
+                    Специалисты завода готовы создать технику, которая будет
+                    оптимизирована под ваши потребности. Мы учитываем все нюансы
+                    - от климатических условий эксплуатации до специфики грунтов
+                    и объемов задач, обеспечивая максимальную эффективность и
+                    надежность оборудования. <br /><br />
+                    Каждый проект проходит этапы глубокого анализа, ЗD
+                    -моделирования и тестирования, что гарантирует соответствие
+                    результата вашим требованиям. Современные инженерные решения
+                    и гибкий подход позволяют реализовать даже нестандартные
+                    идеи, дополняя технику уникальными опциями и системами для
+                    многозадачности.
+                  </p>
+                </div>
+                <div class="about__company__leks__left__buttons">
+                  <button>больше информации</button>
+                  <button>заказать звонок</button>
                 </div>
               </div>
-              <button>Консультация и расчет доставки</button>
+              <div class="about__company__leks__right">
+                <div class="about__company__leks__right__dvs">
+                  <h3>14+</h3>
+                  <h5>
+                    лет опыта работы <br />
+                    по производству <br />спецтехники под заказ
+                  </h5>
+                </div>
+                <div class="about__company__leks__right__dvs">
+                  <h3>748</h3>
+                  <h5>
+                    разработанных <br />чертежей илососного оборудования <br />
+                    и автоцистерн
+                  </h5>
+                </div>
+                <div class="about__company__leks__right__dvs">
+                  <h3>355</h3>
+                  <h5>
+                    едениц техники <br />проданной в лизинг <br />
+                    по всей России
+                  </h5>
+                </div>
+                <div class="about__company__leks__right__dvs">
+                  <h3>50%</h3>
+                  <h5>
+                    предоплата <br />
+                    + 50% оплата по <br />готовности продукции
+                  </h5>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="about__company__icons__div">
-            <div><h3>Наши 
-преимущества</h3><h5>Нас выбирают самые требовательные компании</h5>
-<button>Запросить презентацию</button></div>
-            <div>
-              <img src="./pics/Frame 170.png" alt="">
-              <h5>Четкое соблюдение сроков производства</h5>
+            <div class="about__company__karta">
+              <div class="about__company__karta__left">
+                <img src="./pics/Group 1420.png" alt="Gg" />
+              </div>
+              <div class="about__company__karta__right">
+                <div class="about__company__karta__right__texts">
+                  <h3>Доставка в любую точку России и стран СНГ</h3>
+                  <div class="about__company__karta__right__texts__2">
+                    <h5>
+                      Осуществляем доставку своим ходом, на трале или
+                      жд-транспортом
+                    </h5>
+                    <div class="about__company__karta__right__texts__2__group">
+                      <div>
+                        <h3>212</h3>
+                        <h5>собственных <br />водителей</h5>
+                      </div>
+                      <div>
+                        <h3>350</h3>
+                        <h5>Поставок <br />по тендерам</h5>
+                      </div>
+                      <div>
+                        <h3>54</h3>
+                        <h5>города</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button>Консультация и расчет доставки</button>
+              </div>
             </div>
-            <div>
-              <img src="./pics/engine 1.png" alt="">
-              <h5>Насосы собственного производства + импорт</h5>
+            <div class="about__company__icons__div">
+              <div>
+                <h3>Наши преимущества</h3>
+                <h5>Нас выбирают самые требовательные компании</h5>
+                <button>Запросить презентацию</button>
+              </div>
+              <div>
+                <img src="./pics/Frame 170.png" alt="" />
+                <h5>Четкое соблюдение сроков производства</h5>
+              </div>
+              <div>
+                <img src="./pics/engine 1.png" alt="" />
+                <h5>Насосы собственного производства + импорт</h5>
+              </div>
+              <div>
+                <img src="./pics/Frame 170 (2).png" alt="" />
+                <h5>Подробная инструкция и программы обучения</h5>
+              </div>
+              <div>
+                <img src="./pics/Frame 170(1).png" alt="" />
+                <h5>
+                  Оперативная доставка до клиента своим ходом или ЖД транспортом
+                </h5>
+              </div>
+              <div>
+                <img src="./pics/Frame 170(3).png" alt="" />
+                <h5>Работаем по 44 и 223 ФЗ</h5>
+              </div>
             </div>
-            <div>
-              <img src="./pics/Frame 170 (2).png" alt="">
-              <h5>Подробная инструкция и программы обучения</h5>
-            </div>
-            <div>
-              <img src="./pics/Frame 170(1).png" alt="">
-              <h5>Оперативная доставка до клиента своим ходом или ЖД транспортом</h5>
-            </div>
-            <div>
-              <img src="./pics/Frame 170(3).png" alt="">
-              <h5>Работаем по 44 и 223 ФЗ</h5>
-            </div>
-          </div>
-          </div>
-        </div>
-    </div>
-    <div class="vaprosi__section">
-      <img src="./pics/bbooddyy.jpg" alt="">
-      <div class="vaprosi__section__zayavka">
-        <div class="zayavka__sec__items">
-          <h2>Остались <br>вопросы? </h2>
-          <h5>Оставьте телефон и мы <br>перезвоним в течение 5 минут</h5>
-          <input type="text" placeholder="Ваше имя">
-          <input type="text" placeholder="Телефон">
-          <button>отправить</button>
-          <div class="zayavka__sec__items__1">
-            <input type="checkbox" name="" id="">
-            <p>Нажимая кнопку, Вы соглашаетесь на обработку персональных данных (ст. 7 №152-ФЗ)</p>
           </div>
         </div>
       </div>
-      <!-- <div class="vaprosi__section__left"></div> -->
-      <!-- <div class="vaprosi__section__right"></div> -->
-    </div>
-    <div class="map__section">
-      <img src="./pics/karttaaaaa.jpg" alt="">
-      <div class="map__section__div__1">
-        <div class="div__1__items__map">
-          <img src="./pics/logo.svg" alt="">
-          <p>Мы производим всего две модели техники и они всегда в наличии. Это позволило довести каждую до идеала. приезжайте на осмотр и тест-драйв.</p>
-          <div class="div__1__items__chlg">
-            <div><img src="./pics/location.svg" alt="">
-            <h4>г. Челябинск, ул. Промышленная, 6</h4></div>
-            
-            <div>
-              <img src="./pics/call-calling (1).svg" alt="">
-              <h4>8 (351) 217-07-50</h4>
-            </div>
-            <div>
-              <img src="./pics/sms.svg" alt="">
-              <h4>INFO+285243@LEX.SU</h4>
+      <div class="vaprosi__section">
+        <img src="./pics/bbooddyy.jpg" alt="" />
+        <div class="vaprosi__section__zayavka">
+          <div class="zayavka__sec__items">
+            <h2>Остались <br />вопросы?</h2>
+            <h5>Оставьте телефон и мы <br />перезвоним в течение 5 минут</h5>
+            <input type="text" placeholder="Ваше имя" />
+            <input type="text" placeholder="Телефон" />
+            <button>отправить</button>
+            <div class="zayavka__sec__items__1">
+              <input type="checkbox" name="" id="" />
+              <p>
+                Нажимая кнопку, Вы соглашаетесь на обработку персональных данных
+                (ст. 7 №152-ФЗ)
+              </p>
             </div>
           </div>
-          <p class="div__1__p__map">ИНН / КПП: <br>
-7452075540 / 746001001</p>
         </div>
-        <div class="div__1__buttons__map">
-          <div class="div__1__buttons__map__buttons">
-            <button class="buttons1">Оставить заявку</button>
-          <button class="buttons2">Скачать реквизиты</button>
+        <!-- <div class="vaprosi__section__left"></div> -->
+        <!-- <div class="vaprosi__section__right"></div> -->
+      </div>
+      <div class="map__section">
+        <img src="./pics/karttaaaaa.jpg" alt="" />
+        <div class="map__section__div__1">
+          <div class="div__1__items__map">
+            <img src="./pics/logo.svg" alt="" />
+            <p>
+              Мы производим всего две модели техники и они всегда в наличии. Это
+              позволило довести каждую до идеала. приезжайте на осмотр и
+              тест-драйв.
+            </p>
+            <div class="div__1__items__chlg">
+              <div>
+                <img src="./pics/location.svg" alt="" />
+                <h4>г. Челябинск, ул. Промышленная, 6</h4>
+              </div>
+
+              <div>
+                <img src="./pics/call-calling (1).svg" alt="" />
+                <h4>8 (351) 217-07-50</h4>
+              </div>
+              <div>
+                <img src="./pics/sms.svg" alt="" />
+                <h4>INFO+285243@LEX.SU</h4>
+              </div>
+            </div>
+            <p class="div__1__p__map">
+              ИНН / КПП: <br />
+              7452075540 / 746001001
+            </p>
           </div>
-          <div class="div__1__buttons__map__icons">
-            <img src="./pics/vk.png" alt="">
-            <img src="./pics/tg.png" alt="">
-            <img src="./pics/yt.png" alt="">
+          <div class="div__1__buttons__map">
+            <div class="div__1__buttons__map__buttons">
+              <button class="buttons1">Оставить заявку</button>
+              <button class="buttons2">Скачать реквизиты</button>
+            </div>
+            <div class="div__1__buttons__map__icons">
+              <img src="./pics/vk.png" alt="" />
+              <img src="./pics/tg.png" alt="" />
+              <img src="./pics/yt.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
+      <footer class="footer__section">
+        <div class="section__footer">
+          <p>© ООО «ЧМЗ-Инжиниринг» 2025</p>
+          <p>Политика конфиденциальности</p>
+          <p>Дизайн сайта: U-ZI Design Studio</p>
+        </div>
+      </footer>
     </div>
-    <footer class="footer__section">
-      <div class="section__footer">
-        <p>© ООО «ЧМЗ-Инжиниринг» 2025</p>
-        <p>Политика конфиденциальности</p>
-        <p>Дизайн сайта: U-ZI Design Studio</p>
-      </div>
-    </footer>
     <script src="./app.js"></script>
   </body>
 </html>
