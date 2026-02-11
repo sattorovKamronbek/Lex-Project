@@ -39,7 +39,7 @@ img {
   text-transform: none;
 }
 .home {
-  background-image: url("../pics/home_bg.png");
+  background-image: url("./pics/home_bg.png");
   background-size: cover;
   background-position: bottom;
   color: #bf9c56;
