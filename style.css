@@ -234,6 +234,7 @@ img {
 }
 .b1end {
   display: flex;
+  flex-wrap: wrap;
   padding: 0px 240px;
   background-color: #1a1a1a;
 }
@@ -440,7 +441,6 @@ img {
 .track__buttons__2 {
   font-weight: bold;
   padding: 15px 56px;
-
   font-family: "montserrat", sans-serif;
   font-size: 15px;
   background-color: #1a1a1a;
@@ -1235,6 +1235,10 @@ img {
   .primerly__items__box__3L {
     padding: 200px 240px;
   }
+  .track__buttons__1 .track__buttons__2{
+    width: 270px;
+    height: 50px;
+  }
 }
 @media screen and (max-width: 1280px) {
   .home {
@@ -1354,5 +1358,10 @@ img {
   .home {
     background-size: 150%;
     background-position: center right;
+  }
+  .b1endbox {
+    width: 100%;
+
+    border-bottom:2px solid #000000;
   }
 }
